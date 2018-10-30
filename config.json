@@ -1,0 +1,39 @@
+{
+  "destination": "/usr/local/www/usesthis.com/public/",
+
+  "paths": {
+    "paginated_posts": "interviews",
+    "posts": "interviews",
+    "categories": "categories"
+  },
+
+  "generation": {
+    "day_archives": false
+  },
+
+  "layouts": {
+    "post": "interview",
+    "paginated_post": "interviews",
+    "category": "interviews",
+    "archive": "interviews",
+    "date_archive": "interviews"
+  },
+
+  "date_formats": {
+    "month": "%B %Y"
+  },
+
+  "feed_formats": [
+    "atom",
+    "json"
+  ],
+
+  "category_names": {
+    "bsd": "BSD",
+    "mac": "Macintosh"
+  },
+
+  "data": {
+    "description": "A collection of nerdy interviews asking people from all walks of life what they use to get the job done"
+  }
+}
